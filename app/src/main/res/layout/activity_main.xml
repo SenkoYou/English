@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#87CEB1"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="244dp"
+        android:layout_weight="match_parent"
+        android:background="#87CEB1">
+
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="627dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#87CEB1"
+            app:srcCompat="@drawable/menu" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1451dp"
+        android:layout_weight="1"
+        android:background="#87CEB1"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/imageButton6"
+            android:layout_width="match_parent"
+            android:layout_height="222dp"
+            android:background="#87CEB1"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/play_btn" />
+
+        <ImageButton
+            android:id="@+id/imageButton7"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#87CEB1"
+            app:srcCompat="@drawable/voc_btn" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="900dp"
+        android:layout_weight="1"
+        android:background="#87CEB1"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+</LinearLayout>
